@@ -6,7 +6,7 @@ Trivial redis-based struct queue.
 go get upper.io/queue
 ```
 
-[![Build Status](https://travis-ci.org/upper/queue.png)](https://travis-ci.org/upper/queue)
+[![Build Status](https://api.travis-ci.org/upper/queue.png)](https://travis-ci.org/upper/queue)
 
 ## License
 
