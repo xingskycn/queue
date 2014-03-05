@@ -1,0 +1,20 @@
+language: go
+
+go:
+  - 1.1
+  - 1.2
+  - tip
+
+services:
+  - redis-server
+
+install:
+  - go get labix.org/v2/mgo/bson
+  - go get menteslibres.net/gosexy/redis
+
+env:
+  - GOARCH=amd64
+
+script:
+  - go build
+  - go test
