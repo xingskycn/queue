@@ -16,5 +16,6 @@ env:
   - GOARCH=amd64
 
 script:
-  - go build
-  - go test
+  - go get upper.io/queue
+  - go build upper.io/queue
+  - go test upper.io/queue
